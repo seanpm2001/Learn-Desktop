@@ -57,7 +57,6 @@
 *.yaml linguist-documentation=false
 *.yaml linguist-language=YAML
 # Markdown
-# Do not include, as it would become the 100% dominant language and would hide all the other languages as "other"
 *.md linguist-detectable=false
 *.md linguist-documentation=false
 *.md linguist-language=Markdown
@@ -119,7 +118,7 @@
 *.tex linguist-documentation=false
 *.tex linguist-language=TeX
 # Desktop entry
-*.desktop linguist-detectable=false
+*.desktop linguist-detectable=true
 *.desktop linguist-documentation=false
 *.desktop linguist-language=desktop
 # INI/CFG
@@ -165,6 +164,6 @@
 
 # File info
 # File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+# File version: 5 (2022, Monday, September 5th at 2:45 pm PST)
+# Line count (including blank lines and compiler line): 170
 # End of script
